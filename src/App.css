@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.wrapper {
+  max-width: 425px;
+  height: 382px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.cardContent {
+  width: 100%;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.swipe:last-of-type {
+
+}
+
+@keyframes popup {
+  0%   { transform: scale(1,1) }
+  10%  { transform: scale(1.1,1.1) }
+  30%  { transform: scale(.9,.9) }
+  50%  { transform: scale(1,1) }
+  57%  { transform: scale(1,1) }
+  64%  { transform: scale(1,1) }
+  100% { transform: scale(1,1) }
+} 
+  
+@media screen and (min-width: 425px) {
+  .cardContainer {
+    width: auto;
+    height: 382px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .swipe {
+    position: absolute;
+    width: 361px;
   }
+
+}
+
+@media screen and (max-width: 375px) {
+  .cardContainer {
+    width: 311px;
+    height: 382px;
+  }
+
+  .swipe {
+    position: absolute;
+    width: 311px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .cardContainer {
+    width: 256px;
+    height: 324px;
+  }
+
+  .swipe {
+    position: absolute;
+    width: 256px;
+  }
+
 }
