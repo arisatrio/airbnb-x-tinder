@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/airbnb-x-tinder/static/css/main.fc20b94d.chunk.css",
+    "main.js": "/airbnb-x-tinder/static/js/main.3da566e2.chunk.js",
+    "main.js.map": "/airbnb-x-tinder/static/js/main.3da566e2.chunk.js.map",
+    "runtime-main.js": "/airbnb-x-tinder/static/js/runtime-main.b1cfdf89.js",
+    "runtime-main.js.map": "/airbnb-x-tinder/static/js/runtime-main.b1cfdf89.js.map",
+    "static/js/2.829387df.chunk.js": "/airbnb-x-tinder/static/js/2.829387df.chunk.js",
+    "static/js/2.829387df.chunk.js.map": "/airbnb-x-tinder/static/js/2.829387df.chunk.js.map",
+    "index.html": "/airbnb-x-tinder/index.html",
+    "static/css/main.fc20b94d.chunk.css.map": "/airbnb-x-tinder/static/css/main.fc20b94d.chunk.css.map",
+    "static/js/2.829387df.chunk.js.LICENSE.txt": "/airbnb-x-tinder/static/js/2.829387df.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1cfdf89.js",
+    "static/js/2.829387df.chunk.js",
+    "static/css/main.fc20b94d.chunk.css",
+    "static/js/main.3da566e2.chunk.js"
+  ]
+}
