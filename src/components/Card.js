@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import TinderCard from 'react-tinder-card'
-// import './App.css'
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';

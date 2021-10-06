@@ -6,6 +6,9 @@ import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Divider from '@mui/material/Divider';
 
+import Undo from './Undo';
+import Favorite from './Favorite';
+
 export default function Navigation() {
     const [value, setValue] = React.useState(0);
 
@@ -36,7 +39,7 @@ export default function Navigation() {
                         setValue(newValue);
                     }}
                 >
-                    <BottomNavigationAction label="Recents"
+                    <BottomNavigationAction label="Undo"
                         icon={<RestoreIcon />}
                     />
                     <BottomNavigationAction label="Favorites"
@@ -59,6 +62,8 @@ export default function Navigation() {
                     shadowOffset: { height: 0, width: 0 }
                 }}
             >
+                {value === 0 && <Undo />}
+                {value === 1 && <Favorite />}
 
             </Box>
         </Box>
